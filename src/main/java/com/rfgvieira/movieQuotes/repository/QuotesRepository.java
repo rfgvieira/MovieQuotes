@@ -1,7 +1,7 @@
 package com.rfgvieira.movieQuotes.repository;
 
-import com.rfgvieira.movieQuotes.model.Quotes;
+import com.rfgvieira.movieQuotes.model.Quote;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface QuotesRepository extends JpaRepository<Quotes, Long> {
+public interface QuotesRepository extends JpaRepository<Quote, Long> {
 }
